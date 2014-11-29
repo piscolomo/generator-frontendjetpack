@@ -13,9 +13,9 @@ var FrontendjetpackGenerator = yeoman.generators.Base.extend({
     var done = this.async();
 
     this.log(yosay(
-      'Welcome to the awesome Frontend Jetpack generator!'
+      'Thanks to use Frontend Jetpack generator, you really rock!'
     ));
-
+    /*
     var prompts = [{
       name: 'appName',
       message: 'What is your app\'s name ?',
@@ -26,7 +26,7 @@ var FrontendjetpackGenerator = yeoman.generators.Base.extend({
       this.appName = props.appName;
 
       done();
-    }.bind(this));
+    }.bind(this));*/
   },
 
   writing: {

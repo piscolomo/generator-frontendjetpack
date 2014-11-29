@@ -1,10 +1,15 @@
 doctype html
 html(lang="en")
   head
-    title Grunt Project Ready
+    title Frontend Jetpack
     link(rel="stylesheet" href="bower_components/normalize.css/normalize.css")
     link(rel="stylesheet" href="css/style.css")
     script(type='text/javascript' src="js/script.min.js")
     script(src="http://localhost:35729/livereload.js")
   body
-    h1 Hola Mundo
+    h1 Frontend Jetpack
+    h2 How to use
+    p Run grunt and start coding inside /development_files. Your browser will open in http://localhost:8000. Your files jade/sass will be compiled and the browser will refresh automatically with livereload. Also your js files have a minifier, and a concat for create one js file to the output. If there is code wrong in your js files, a notification of your SO will appear to warning you.
+    p Run grunt sprites for create styles and a sprite file using all .pngs in images/sprites/
+    p Run grunt images to optimize all your images in images/
+    p Run grunt test for run your specs in /test folder
