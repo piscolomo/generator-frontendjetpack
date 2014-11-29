@@ -1,6 +1,18 @@
 {
-  "name": "package",
+  "name": "frontend-jetpack",
   "version": "0.0.0",
-  "dependencies": {}
+  "homepage": "https://github.com/TheBlasfem/generator-frontendjetpack",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "7e6e3f22d14641a787f021e985781bff4edf9627",
+    "normalize.css": "~3.0.2",
+    "neat": "1.5.0"
+  }
 }
-
