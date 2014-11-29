@@ -27,6 +27,7 @@ var FrontendjetpackGenerator = yeoman.generators.Base.extend({
 
       done();
     }.bind(this));*/
+    done();
   },
 
   writing: {
