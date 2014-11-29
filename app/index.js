@@ -12,11 +12,8 @@ var FrontendjetpackGenerator = yeoman.generators.Base.extend({
   prompting: function () {
     var done = this.async();
 
-    // Have Yeoman greet the user.
-    console.log(this.yeoman);
-
     this.log(yosay(
-      'Welcome to the dazzling Frontendjetpack generator!'
+      'Welcome to the awesome Frontend Jetpack generator!'
     ));
 
     var prompts = [{
