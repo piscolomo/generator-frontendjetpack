@@ -13,19 +13,20 @@ var FrontendjetpackGenerator = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Have Yeoman greet the user.
+    console.log(this.yeoman);
+
     this.log(yosay(
       'Welcome to the dazzling Frontendjetpack generator!'
     ));
 
     var prompts = [{
-      type: 'confirm',
-      name: 'someOption',
-      message: 'Would you like to enable this option?',
-      default: true
+      name: 'appName',
+      message: 'What is your app\'s name ?',
+      default: "frontend-jetpack"
     }];
 
     this.prompt(prompts, function (props) {
-      this.someOption = props.someOption;
+      this.appName = props.appName;
 
       done();
     }.bind(this));
