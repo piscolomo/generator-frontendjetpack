@@ -10,10 +10,6 @@ describe('frontendjetpack:app', function () {
   before(function (done) {
     helpers.run(path.join(__dirname, '../app'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
-      .withOptions({ 'skip-install': true })
-      .withPrompt({
-        someOption: true
-      })
       .on('end', done);
   });
 
@@ -21,8 +17,15 @@ describe('frontendjetpack:app', function () {
     assert.file([
       'bower.json',
       'package.json',
+      "gruntfile.js",
+      "karma.conf.js",
       '.editorconfig',
-      '.jshintrc'
+      '.jshintrc',
+      "development_files/index.jade",
+      "development_files/script1.js",
+      "development_files/script2.js",
+      "development_files/style.scss",
+      "test/spec.js"
     ]);
   });
 });
