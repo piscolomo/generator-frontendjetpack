@@ -1,6 +1,7 @@
 # generator-frontendjetpack [![Build Status](https://secure.travis-ci.org/TheBlasfem/generator-frontendjetpack.png?branch=master)](https://travis-ci.org/TheBlasfem/generator-frontendjetpack)
 
-> Yeoman Generator for a jetpack ready to launch you so high in frontend development
+> Yeoman Generator for a jetpack ready to launch you so high in frontend development. We love the Frontend workflow with [Grunt](http://gruntjs.com/), [Bower](http://bower.io/), using [Jade](http://jade-lang.com), [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io) and [Neat](http://neat.bourbon.io).
+
 
 ## Install
 
