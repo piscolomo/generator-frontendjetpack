@@ -14,7 +14,7 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo frontendjetpack`, optionally passing an app name:
+Run
 ```
 yo frontendjetpack
 ```
